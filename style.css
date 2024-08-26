@@ -19,12 +19,7 @@ a:hover {
     cursor: pointer;
 }
 
-<<<<<<< Updated upstream
 body {
-=======
-body{
-    padding: 10px 40px;
->>>>>>> Stashed changes
     background-color: black;
     overflow: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,7 +140,6 @@ section {
     width: 80px;
 }
 
-<<<<<<< Updated upstream
 /* Responsive Styles */
 @media (max-width: 768px) {
     main {
@@ -169,7 +163,6 @@ section {
     .mic img {
         width: 60px;
     }
-=======
 
 button{
     margin-left: -50px;
@@ -179,5 +172,4 @@ button{
     color: white;
     border: none;
     font-size: 30px;
->>>>>>> Stashed changes
 }
