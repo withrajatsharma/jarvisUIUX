@@ -87,12 +87,39 @@ section{
 .section1{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
 }
 
 .chats{
-    padding: 10px;
-    height: 80%;
+    padding: 0px 20px;
+    margin-top: 40px;
+    height: 65%;
+    width: 80%;
+    margin-left: 10%;
+    overflow: auto;
+    color: rgba(255, 255, 255, 0.74);
+    
+}
+
+.chats p{
+    margin-bottom: 2px;
+}
+
+#user{
+    color:rgb(76, 156, 76);
+}
+#jarvis{
+    color: rgb(70, 138, 197);
+}
+
+
+.chats p{
+    font-size: 20px;
+}
+
+.chats::-webkit-scrollbar{
+    display: none;
 }
 
 
@@ -103,4 +130,24 @@ section{
     align-items: start;
     height: 20%;
 
+}
+
+.section2{
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.aiImg img{
+        width: 450px;
+    }
+
+.mic img{
+    cursor: pointer;
+    width: 200px;
 }
