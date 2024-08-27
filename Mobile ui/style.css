@@ -59,7 +59,7 @@ body {
 .conversation {
    
     margin-top: 50px;
-    /* display: flex; */
+    display: flex;
     text-align: left;
     flex-direction: column;
     align-items: center;
@@ -88,11 +88,11 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    /* background: radial-gradient(circle, #000, #0051ff); */
+    background: radial-gradient(circle, #000, #0051ff);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0 0 10px #0051ff; */
+    box-shadow: 0 0 10px #0051ff;
     margin-left: 80px;
     margin-bottom: 20px;
     
@@ -118,10 +118,10 @@ body {
     color: rgb(70, 138, 197);
 }
 
-/* .microphone-icon img {
+.microphone-icon img {
     width: 50%;
     
-} */
+}
 
 button{
     border: none;
@@ -138,26 +138,21 @@ button{
     display: flex;
     justify-content:center;
     align-items: start;
-    height: 20%;
+    height: 50%;
 
 }
 
 
 #askAi{
     
-    padding: 15px 30px;
+  
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 14px;
     font-size: 15px;
     outline: none;
-    /* width: 100%; */
+    width: 100%;
     color: rgba(255, 255, 255, 0.74);
 }
 
 
-.ask img{
-    width: 40px;
-    margin-left: 30px;
-    margin-top: 5px;
-}
