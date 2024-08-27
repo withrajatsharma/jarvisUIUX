@@ -23,19 +23,22 @@ body {
     box-sizing: border-box;
     background: #000;
     max-height: 800px;
+    background-image: url(../assets/middle\ background.svg);
+    background-repeat: no-repeat;
    
 }
 
 .title {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #34333D;
 }
 
 .settings-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .input-group {
@@ -47,7 +50,12 @@ body {
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    border: #fff 2px solid;
+    border: #fff 1px solid;
+   
+}
+
+input::placeholder{
+    color: white;
 }
 
 .input-group label.icon {
@@ -75,9 +83,10 @@ body {
 }
 
 .save-button {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 10px;
+    background-color: black;
+    border: 1px solid #34333D;
+    border-radius: 64px;
+
     
     color: #fff;
     font-size: 16px;
