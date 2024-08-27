@@ -89,8 +89,9 @@ header nav ul{
     }
 
     .input-with-space{
-        padding-left: 20px;
+        padding-left: 40px;
         color: white;
+
     }
 
     input::placeholder{
@@ -109,4 +110,11 @@ header nav ul{
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+
+.input input{
+    background-image: url("./assets/userIcon.png");
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
 }

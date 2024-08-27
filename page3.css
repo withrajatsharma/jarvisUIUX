@@ -13,7 +13,16 @@
         overflow: hidden;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+    a{
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0.74) ;
+    }
     
+    a:hover{
+        color: rgb(65, 130, 228);
+        cursor: pointer;
+    }
     
     /* header */
     
