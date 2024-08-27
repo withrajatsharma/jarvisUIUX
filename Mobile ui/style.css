@@ -23,6 +23,7 @@ body {
     align-items: center;
     background-image: url('../assets/mobile1stupper.svg');
     background-repeat: no-repeat;
+    justify-content: center;
 }
 
 .header {
@@ -90,19 +91,50 @@ body {
     
    
     bottom: 0px;
-    left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    background: radial-gradient(circle, #000, #0051ff);
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px #0051ff;
-    margin-left: 80px;
+    box-shadow: 0 0 5px #0051ff;
+
     margin-bottom: 20px;
+    margin-left: 170px;
+
     
+    
+    
+}
+
+.micro2{
+
+    
+    border: #0051ff 1px solid;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #0051ff;
+   
+
+}
+
+.micro3{
+
+    border: #0051ff 1px solid;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px #0051ff;
+
 }
 
 .chats{
@@ -123,10 +155,13 @@ body {
 }
 #jarvis{
     color: rgb(70, 138, 197);
+    
 }
 
 .microphone-icon img {
-    width: 50%;
+    width: 60px; 
+    height: 60px;
+    
     
 }
 
@@ -144,8 +179,9 @@ button{
     
     display: flex;
     justify-content:center;
-    align-items: start;
+    align-items: center;
     height: 50%;
+    
 
 }
 
