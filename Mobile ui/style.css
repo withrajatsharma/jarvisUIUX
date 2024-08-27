@@ -59,7 +59,8 @@ body {
 .conversation {
    
     margin-top: 50px;
-    display: flex;
+    /* display: flex; */
+    text-align: left;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -81,23 +82,82 @@ body {
 .microphone-icon {
     
    
-    bottom: 20px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: radial-gradient(circle, #000, #0051ff);
+    /* background: radial-gradient(circle, #000, #0051ff); */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px #0051ff;
+    /* box-shadow: 0 0 10px #0051ff; */
     margin-left: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     
 }
 
-.microphone-icon img {
+.chats{
+    overflow: auto;
+    /* background-color: red; */
+
+}
+.chats::-webkit-scrollbar{
+    display: none;
+}
+
+.chats p{
+    margin-bottom: 2px;
+}
+
+#user{
+    color:rgb(76, 156, 76);
+}
+#jarvis{
+    color: rgb(70, 138, 197);
+}
+
+/* .microphone-icon img {
     width: 50%;
     
+} */
+
+button{
+    border: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    margin-left: -50px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.ask{
+    
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    height: 20%;
+
+}
+
+
+#askAi{
+    
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 14px;
+    font-size: 15px;
+    outline: none;
+    /* width: 100%; */
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+.ask img{
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
 }

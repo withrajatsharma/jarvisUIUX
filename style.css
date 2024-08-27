@@ -161,3 +161,14 @@
         margin-top: 48px;
         width: 80px;
     }
+
+
+    button{
+        border: none;
+        font-size: 30px;
+        background-color: transparent;
+        color: white;
+        margin-left: -50px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
