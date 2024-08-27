@@ -7,6 +7,7 @@ body {
     background-color: #222;
     color: #fff;
     font-family: Arial, sans-serif;
+   
 }
 
 .container {
@@ -17,6 +18,14 @@ body {
     max-height: 800px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
+    background-image: 
+            url(../assets/mobile1stupper.svg),
+            url(../assets/mobilelowerback.svg);
+   
+    background-position:top,bottom; /* Position each background */
+    background-repeat: no-repeat, no-repeat; /* Prevent tiling */
+   
+            
 }
 
 .header {
@@ -52,10 +61,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin: 20px;
-    flex: 1;
+    margin: 10px;
+    margin-top: 50px;
+    
     overflow-y: auto;
     height: 58vh;
+   
 }
 
 .message {
@@ -65,48 +76,67 @@ body {
     border-radius: 10px;
     max-width: 80%;
     word-wrap: break-word;
+    
 }
 
 .message.user {
     align-self: flex-end;
-    background-color: #0051ff;
+    
+    
+    
 }
 
 .message.assistant {
     align-self: flex-start;
-    background-color: #333;
+    
 }
+
+
 
 .message p {
     margin: 0;
-    padding: 0 10px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 15px;
+   
+}
+
+.p1{
+    background-color: #324EFF;
+    border-radius: 15px;
+    
+}
+
+.p2{
+    background-color: #364156;
+    border-radius: 15px;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background-color: #222;
     margin: 0 10px;
+    
 }
 
 .user-icon {
-    background-color: #0051ff;
+    background-color: #324EFF;
 }
 
 .assistant-icon {
-    background-color: #666;
+    background-color: #364156;
 }
+
 
 .input-bar {
     display: flex;
     align-items: center;
-    background-color: #333;
-    padding: 10px;
+    background-color: #101728;
+    padding: 20px;
     justify-content: center;
     
     
@@ -119,12 +149,18 @@ body {
     padding: 15px;
     border-radius: 10px;
     font-size: 15px;
+    background-color: #364156;
+    
+}
+
+input::placeholder{
+    color: #fff;
 }
 
 .input-bar button {
     background: none;
     border: none;
-    color: #fff;
+    color: #364156;
     font-size: 24px;
     margin-left: 10px;
     cursor: pointer;
